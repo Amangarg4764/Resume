@@ -266,3 +266,91 @@
         left: -300%;
     }
 }
+/*-------------------------------Qualification---------------*/
+.Qual_body{
+    margin: 20px 25%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.collage,.Intership,.School{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#9e9b9b09;
+    cursor:pointer;
+}
+.Qual_body h4 i{
+    margin-right:5px;
+}
+.Qual_body p{
+    line-height: 1.2rem;
+    font-family: 'Times New Roman', Times, serif,cursive !important;
+}
+.collage{
+    align-self:flex-end;
+}
+.School,.Intership,.collage{
+    position: relative;
+}      
+.School .tooltips,.Intership .tooltips,.collage .tooltips1{
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    
+}
+.School .tooltips,.Intership .tooltips{
+    right: 110%;
+}
+.collage .tooltips1{
+    left: 110%;
+}
+.School .tooltips::after, .Intership .tooltips::after,.collage .tooltips1::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    
+}
+.School .tooltips::after, .Intership .tooltips::after{
+    left: 100%;
+    border-color: transparent transparent transparent black;
+}
+.collage .tooltips1::after{
+    right: 100%;
+    border-color:transparent black  transparent transparent ;
+}
+.School:hover .tooltips,.Intership:hover .tooltips,.collage:hover .tooltips1{
+    visibility: visible;
+}
+.eff_car{
+    position: absolute;
+    width:0;
+    top: 5%;
+    left: 50%;
+    border: 2px dashed black;
+    height: 90%;
+    color: #433E3F;
+    
+}
+.timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 8;
+}
+.eff_car i {
+    transform: rotate(90deg);
+    margin-top: -30px;
+    display: block;
+    color: #2857a4;
+    
+}
