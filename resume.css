@@ -176,17 +176,30 @@
     margin-left: 20px;
 }
 /*-----------------------------Portolio------------------------*/
-#Portf ,#Qual{
+#Portf{
     width:100%;
     height:auto;
     background-color: #9e9b9b29;
     padding: 25px 50px 15px 50px;
 }
-.protf_heading,.Qual_heading{
+#Qual{
+    width:100%;
+    height:auto;
+    background-color: #9e9b9b29;
+    padding: 25px 50px 15px 50px;
+}
+.protf_heading{
     display: flex;
     justify-content: center;
 }
-.protf_heading i,.Qual_heading i{
+.Qual_heading{
+    display: flex;
+    justify-content: center;
+}
+.protf_heading i{
+    margin-right: 15px;
+}
+.Qual_heading i{
     margin-right: 15px;
 }
 .Portf_div{
