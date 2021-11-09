@@ -307,7 +307,7 @@
 }      
 .School .tooltips,.Intership .tooltips,.collage .tooltips1{
     visibility: hidden;
-    width: 200px;
+    width: 60%;
     background-color: black;
     color:white;
     text-align: center;
